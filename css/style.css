@@ -1,3 +1,110 @@
-p{
+/* 1) linking css  */
+/* p{
     color: pink;
+} */
+
+
+/* 2) combinatoor */
+/* 
+1)descendent combinator
+div strong  {
+    or div p strong
+    background-color: black;
+    color: white;
+}
+
+strong{
+    color: red;
+    background-color: purple;
+}
+ */
+
+/* some more example  */
+/* 
+ul li a[href="https://google.com"]{
+    color: red; 
+} */
+
+
+
+
+/* 2)child combinator  */
+/* ol > li{
+    color: greenyellow;
+    background-color: black;
+}
+
+
+h4+p{
+    color: blue;
+} */
+
+/* div{
+    color: blue;
+    height: 8vh;
+    width: 50vw;
+}
+
+div:hover{
+    color :red;
+}
+div:active{
+    color: pink;
+}
+div:focus{
+    color: green;
+} */
+/*
+div:nth -child(2n+4){
+    color: lime;
+}
+*/
+
+/* 
+
+
+
+h1{
+    border: 2px solid black;
+    background-color: aqua;
+    display: inline-block;
+    height: 200px;
+    width: 100px;
+}
+span{
+    border: 2px solid black;
+    background-color: palevioletred;
+} */
+
+
+
+/* position  */
+
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#st #middle{
+    position: static;
+    background-color: red;
+    top: 100px;
+    bottom: 200px;
+    /* nothing happen  */
+    /* because position is satstic */
+} 
+
+
+#st #midlow{
+    position : absolute;
+    /* top: 100px; */
+}
+
+
+
+#st #lower{
+    position: relative;
+    top: 100px; 
+    right: 100px; 
 }
