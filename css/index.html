@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,154 @@
     <title>CSS</title>
     <link rel="stylesheet" href="./style.css">
     <style>
-        .ok{
+        .ok {
             color: blue;
-            text-decoration: line-through;            
+            text-decoration: line-through;
         }
     </style>
 </head>
+
 <body>
-    <strong> Diff ways to add css</strong>
+    <!--<strong> Diff ways to add css</strong>
     <p style="color:red"> 1)inline css </p>
-    <p class="ok"> 2)internal css</p> <!-- using selector -->
+    <p class="ok"> 2)internal css</p> using selector -->
+
+<!-- combinator -->
+<!-- 1)descendent combinator -->
+<!-- 2)child combinator -->
+<!-- 3)adjacent combinator -->
+<!-- 4)general combinator -->
+
+<!-- 1)descendent combinator -->
+<!-- <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit magnam suscipit rerum quas
+            mollitia nihil! <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Corporis pariatur
+            ipsa atque recusandae, molestiae iusto officia suscipit dolorum nulla eius, laudantium minus?</p>
+    </div>
+    <p>
+        Lorem ipsum dolor sit, ametstr <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> consectetur adipisicing elit. Quas, libero? Facilis, quidem enim iusto incidunt
+        ipsum at quo beatae! Officiis cumque voluptas corporis dignissimos dolor natus nobis maiores earum sint?
+    </p> -->
+
+<!-- some more example  -->
+<!-- <a href="https://www.google.com" target="_blank">google </a>
+    <ul>
+        <li><a href="https://google.com" target="_blank">visit google</a></li>
+        <li><a href="https://facebook.com" target="_blank">visit facebook</a></li>
+        <li><a href="https://twitter.com" target="_blank">visit twitter</a></li>
+    </ul>
+-->
+
+
+
+
+
+<!-- 2)child combinator  -->
+
+<!-- <ul>
+        <li>mango</li>
+        <li>apple</li>
+        <li>kiwi</li>
+        <li>
+            <ol>
+                <li>parth</li>
+                <li>ram</li>
+                <li>sita</li>
+                <li>
+                    <ul>
+                        <li>ok</li>
+                        <li>not ok</li>
+                    </ul>
+                </li>
+                <li>luv</li>
+            </ol>
+        </li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, impedit, aperiam iure quisquam, ipsam
+        molestiae laboriosam nulla odit nam magnam illo officiis sapiente repellendus fugit tempore id temporibus
+        debitis amet?</p>
+    <h4>Lorem ipsum dolor sit.</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit possimus at aliquam
+        nostrum necessitatibus tempora eos porro sapiente libero soluta inventore quaerat, commodi voluptate dolores
+        doloremque, aut minima dicta recusandae? .</p>
+    <h4>Lorem, ipsum dolor.</h4>
+    <p>Lorem ipsum dolor sit amet.lot Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero enim repellat dolores sint. Nostrum, praesentium sint, quos doloribus iste eveniet et, cum odio natus quidem laudantium in deserunt exercitationem?</p> -->
+
+
+<!-- 
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia placeat repellat cum eligendi dolore? Inventore officiis excepturi neque. Explicabo rerum reiciendis quasi itaque voluptas dolore adipisci molestiae unde vel?</div>
+ -->
+
+<!-- 
+
+
+
+
+
+
+
+    display property
+  -->
+<!-- 1)inline 
+  2)block
+  3)inline block
+  4)none -->
+
+<!-- <h1>This is a heading </h1>
+        <h1>This is a second heading </h1>
+        <span>This is a span</span>
+        <span>This is a second span</span>
+ -->
+
+
+
+
+<!-- position  -->
+
+
+
+<h2>static</h2>
+<section id="st">
+    <div style="background-color: lightsalmon;">1</div>
+    <div id="middle" style="background-color: lightblue;">2</div>
+    <div id="midlow" style="background-color: lightseagreen;">3</div>
+    <div id="lower" style="background-color: lightgreen;">4</div>
+</section>
+
+
 </body>
+
 </html>
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
